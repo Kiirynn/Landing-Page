@@ -1,5 +1,6 @@
 .smallimg {
 width: 100px;
+
 }
 
 .headerimg {
@@ -10,7 +11,8 @@ width: 300px;
 .body1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -41,6 +43,26 @@ a {
     justify-content: space-around;
     align-items: center;
     
+   
+}
+
+.container1 {
+    
+}
+
+.container2 {
+    flex-direction: column;
+}
+
+.contents1 {
+ 
+}
+
+.contents2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
 }
 
 footer {
