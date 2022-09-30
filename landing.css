@@ -1,8 +1,9 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    
-   
+    }
+h1 {
+    color: white;
 }
 
 h4 {
@@ -10,13 +11,11 @@ h4 {
   padding: 0;
   margin: 0;
 }
-
 h6 {
     color: black;
     font-size: 1.3rem;
-    
+    margin-left: 500px;
 }
-
 h2 {
     color: black;
 }
@@ -29,33 +28,28 @@ width: 300px;
 .body1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-    
-}
+   flex: 1;
+    }
 
 .header {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 background-color: #1f2937;
 padding: 10px;
-
-
+color: white;
+padding: 10px 100px;
 }
 
 .divhead, .links {
     display: flex;
-    
-}
-
-
-
+    }
 
 a {
     text-decoration: none;
     padding: 5px;
     font-size: small;
+    color: white;
 }
 
 
@@ -63,11 +57,7 @@ a {
     display: flex;
     align-items: center;
     padding: 50px 50px;
-    flex: 1;
-   
-    
-   
-}
+    }
 
 .container1 {
     background-color: #1f2937;
@@ -79,38 +69,43 @@ a {
 .container2 {
     flex-direction: column;
     background-color: white;
+    
 }
 
 .container3 {
     background-color: #E5E7EB;
+    
 }
 
 .container4 {
   justify-content: center;
-   
 background-color: white;
 padding: 50px 50px;
     
 }
 .contents1, .contents2, .contents3, .container1 {
     padding: 50px 50px;
-    flex: 1;
+   
 }
 
 
 .contents1 {
-    
+    flex-wrap: wrap;
 }
 
 .contents2 {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
     
 }
 
 .contents3 {
 justify-content: center;
+padding: 0 150px;
+flex-wrap: wrap;
+
 }
 
 
@@ -121,14 +116,16 @@ justify-content: center;
 align-items: center;
 background-color: #3882f6;
 border-radius: 10px;
-gap: 100px;
-padding: 35px 150px;
+padding: 35px 125px;
+gap: 30px;
 color: white;
-flex: 1;
+flex-wrap: wrap;
+
 }
 
 .p1 {
     font-size: 36px ;
+    color: black;
     
 }
 
@@ -164,16 +161,19 @@ flex: 1;
     background-color:#3882f6;
     border-radius: 5px;
     border: none;
-    padding:2px 15px;
+  
 }
 
-
+.button1, .button2 {
+    padding: 5px 25px;
+    color: white;  
+}
 
 .button2 {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid white  ;
     border-radius: 5px;
-    padding: 2px 15px;
+    
 }
 
 footer {
